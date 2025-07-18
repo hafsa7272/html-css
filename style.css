@@ -1,0 +1,116 @@
+ body{
+    text-align: center;
+}
+
+ div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border: 2px solid black;
+} 
+
+container{
+    width: 800px;
+    height: 200px;
+}
+
+
+#box1{
+    background-color: aqua;
+}
+ 
+
+#box2{
+    background-color: pink;
+}
+
+
+#box3{
+    background-color: darkgoldenrod;
+}
+
+
+#box4{
+    background-color:chartreuse;
+}
+
+
+#box5{
+    background-color: bisque;
+}
+
+ .navbar{
+    background-color: pink;
+    height: 110px;
+    display: flex;
+    width: 1400px
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+
+
+ .outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+} 
+
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: darkorange;
+}
+
+
+@media(width:600px){
+    div{
+        background-color: snow;
+    }
+}
+
+@media(min-width: 200px)and(max-width:300px){
+    div{
+        background-color: mediumslateblue;
+    }
+}
+
+@keyframes hafs {
+    from{background-color:mediumslateblue;}
+to{background-color: aquamarine;}
+}
+
+
+
+.tomato{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border: 2px solid  black;
+    position: absolute;
+    transition: all 1s ease-in;}
+
+.tomato:hover{
+     background-color:  mediumseagreen;
+    color: white;
+    font-size: 20px; 
+    animation-name: color animate;
+    animation-timing-function: ease-in;
+    animation-duration: initial;
+    animation-direction: normal;
+}
+
