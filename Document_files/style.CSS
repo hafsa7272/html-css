@@ -1,0 +1,32 @@
+.navbar{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+body{
+    background-color: grey;
+    
+}
+
+.logo{
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+
+.logo:hover{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
