@@ -1,0 +1,50 @@
+.heading{
+    background-color: red;
+    padding-left: 20px;
+}
+.menu{
+    display: flex;
+    background: orange;
+}
+
+.menu a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.main-div{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* paragraphs vertical */
+.main-div .loream{
+    display: block;
+    width: 100%;
+}
+.list{
+    background-color: skyblue;
+    width: 15%;
+    height: 73vh;
+}
+
+.paragraph{
+    width: 85%;
+}
+
+@media screen and (max-width: 600px) {
+  .main-div{
+    display: block;
+  }
+  .paragraph{
+    width: 100%;
+  }
+  .list{
+    width: 100%;
+  }
+  li{
+    padding-bottom: 10px;
+  }
+}

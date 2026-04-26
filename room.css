@@ -45,7 +45,9 @@ button:hover {
   color: white;
 }
 
-footer {
+/* footer style */
+
+/* footer {
   background-color: #eeeeee;
   margin-top: 50px;
 }
@@ -125,4 +127,10 @@ footer {
 }
 .locat-3{
   margin-right: 5px;
+} */
+
+/* responsive header */
+
+@media (max-width: 600px) {
+  
 }
