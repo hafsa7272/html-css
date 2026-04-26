@@ -1,0 +1,128 @@
+header {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pages a {
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+}
+
+.button {
+  display: flex;
+}
+
+.book-now {
+  background-color: #ab8a62;
+  border-radius: 20px;
+  display: block;
+  margin: 5px;
+  color: white;
+}
+
+.sign-up {
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  background-color:white ;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sign-in {
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover {
+  background-color: #ab8a62;
+  color: white;
+}
+
+footer {
+  background-color: #eeeeee;
+  margin-top: 50px;
+}
+.double {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 60px;
+  flex-wrap: nowrap;
+}
+.triple-main {
+  display: block;
+}
+.triple {
+  display: flex;
+  justify-content: space-around;
+}
+
+.join h1 {
+  font-size: 48px;
+  color: #0b1a3a;
+  font-family: serif;
+  margin: 0;
+  display: inline;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.form input {
+  padding: 12px 15px;
+  font-size: 16px;
+  width: 250px;
+  display: inline;
+}
+
+.form button {
+  background-color: #a67c52;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.moon-lit {
+  width: 330px;
+}
+.quick-link a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 12px;
+  color: #6c6e71;
+}
+.quaik-services {
+  a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 12px;
+    color: #6c6e71;
+  }
+}
+.number,
+.email,
+.location {
+  display: flex;
+}
+.number-1,
+.email-2,
+.locat-3 {
+  padding-left: 10px;
+}
+.locat-3{
+  margin-right: 5px;
+}

@@ -1,0 +1,77 @@
+.Facilities h1{
+    text-align: center;
+    font-family:sans-serif;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bed{
+    background-color: #ffffff;
+    padding: 30px;
+    width: 240px;
+    text-align: center;
+    line-height: 28px;   
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 245px;
+    border-radius: 10px;
+}
+.security{
+    background-color: #ffffff;
+    padding: 30px;
+    width: 240px;
+    text-align: center;
+    line-height: 28px;   
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.gym{
+    background-color: #ffffff;
+    padding: 30px;
+    width: 240px;
+    text-align: center;
+    line-height: 28px;   
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.pool{
+    background-color: #ffffff;
+    padding: 30px;
+    width: 240px;
+    text-align: center;
+    line-height: 28px;   
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.pool a{
+    display: block;
+    text-decoration: none;
+    color:rgb(0 8 52) ;
+    font-size: 25px;
+}
+.security a{
+    display: block;
+    text-decoration: none;
+    color:rgb(0 8 52) ;
+    font-size: 25px;
+}
+.gym a{
+    display: block;
+    text-decoration: none;
+    color:rgb(0 8 52) ;
+    font-size: 25px;
+}
+.bed a{
+    display: block;
+    text-decoration: none;
+    color:rgb(0 8 52) ;
+    font-size: 25px;
+}
