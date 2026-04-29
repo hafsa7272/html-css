@@ -1,0 +1,45 @@
+/* .map-addres{ */
+    /* display: flex;
+    background-color: #ffffff;
+}
+.hotel-info{
+    width: 270px;
+    text-align: left;
+    font-size: larger;
+    display: inline-block;
+} */
+body {
+  font-family: "Georgia", serif;
+  background-color: #fff;
+  line-height: 1.6;
+  margin: 40px;
+  padding-left: 30PX;
+  padding-right: 40px;
+}
+
+.hotel-info h2 {
+  color:rgb(3 10 47) ; 
+  font-size: 20px;
+  font-family:Gilda Display;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hotel-info {
+  margin-bottom: 25px;
+   float: right;   
+  width: 300px; 
+  padding: 50px;
+}
+
+.hotel-info p {
+  font-size: 16px;
+  color: #555; 
+  word-spacing: 15px; 
+}
+.map-addres {
+  float: left;
+  display: flex;
+   padding: 50px;
+}
+
