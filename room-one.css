@@ -1,0 +1,315 @@
+header {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pages a {
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+}
+
+.button {
+  display: flex;
+}
+
+.book-now {
+  background-color: #ab8a62;
+  border-radius: 20px;
+  display: block;
+  margin: 5px;
+  color: white;
+}
+
+.sign-up {
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sign-in {
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover {
+  background-color: #ab8a62;
+  color: white;
+}
+.main-image {
+  /* position: relative;
+  width: 100%;
+  height: 100vh; */
+  background-image: url(images/Moonlit\ -\ Hotel\ and\ Resturant\ HTML\ Template_files/5.webp);
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+}
+/* .main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.main-image .text {
+  /* position: absolute;
+  top: 30%;
+  left: 30%; */
+  color: #fff;
+  text-align: center;
+}
+.main-image h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.main-image p {
+  font-size: 18px;
+}
+.delux {
+  width: 420px;
+  display: flex; 
+}
+.executive{
+    width: 420px;
+  display: flex;
+}
+.image img {
+  width: 309px;
+  border-radius: 10px;
+}
+.simple a {
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ab8a62;
+}
+.simple h2 {
+  color: blue;
+}
+.simple p {
+  color: #333;
+}
+.image img {
+  width: 309px;
+  border-radius: 10px;
+  height: 250px;
+}
+.simple {
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ab8a62;
+}
+.simple h2 {
+  color: blue;
+}
+.simple p {
+  color: #333;
+}
+.image img {
+  width: 309px;
+  border-radius: 10px;
+  height: 250px;
+}
+.simple {
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ab8a62;
+}
+.simple h2 {
+  color: blue;
+}
+.simple p {
+  color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fb;
+}
+
+.client h1 {
+  margin-top: 50px;
+  font-size: 32px;
+  color: #222;
+}
+
+.stars {
+  margin: 15px 0;
+  color: #f4c150;
+  font-size: 20px;
+}
+
+.imag {
+  display: flex;             
+  align-items: flex-start;   
+  gap: 20px;                  
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.imag img {
+  width: 250px;
+  border-radius: 50%;         
+}
+
+.imag p {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.div h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #111;
+}
+
+.area {
+  display: block;
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+footer {
+  background-color: #eeeeee;
+  margin-top: 50px;
+}
+.double {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 60px;
+  flex-wrap: nowrap;
+}
+.triple-main {
+  display: block;
+}
+.triple {
+  display: flex;
+  justify-content: space-around;
+}
+
+.join h1 {
+  font-size: 48px;
+  color: #0b1a3a;
+  font-family: serif;
+  margin: 0;
+  display: inline;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.form input {
+  padding: 12px 15px;
+  font-size: 16px;
+  width: 250px;
+  display: inline;
+}
+
+.form button {
+  background-color: #a67c52;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.moon-lit {
+  width: 330px;
+}
+.quick-link a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 12px;
+  color: #6c6e71;
+}
+.quaik-services {
+  a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 12px;
+    color: #6c6e71;
+  }
+}
+.number,
+.email,
+.location {
+  display: flex;
+}
+.number-1,
+.email-2,
+.locat-3 {
+  padding-left: 10px;
+}
+.locat-3 {
+  margin-right: 5px;
+}  
+.shadow{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+} 
+.one-div-shadow{
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+.hotel{
+  padding: 0px 30px;
+}
+imag{
+  border-radius:  blue 50px;
+}
+@media screen and (max-width: 767px) {
+  .main-image{
+    padding: 65px 0;
+  }
+  .delux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .executive{
+    display: flex ;
+    flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+ .header-div{
+  display: none ;
+ }
+.double{
+  flex-wrap: wrap;
+}
+.form{
+  flex-direction: column;
+}
+.triple {
+    flex-direction: column;
+}
+.imag{
+  flex-direction: column;
+}
+.hotel img{
+  width: 100%;
+  border-radius: 50%; 
+  border: 2px solid #003c4f;
+}
+}

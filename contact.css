@@ -1,92 +1,208 @@
+
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #fff;
 }
-
 .pages a {
+  margin: 0 15px;
   text-decoration: none;
-  padding: 10px;
-  color: black;
+  color: #333;
+  font-weight: 500;
 }
-
+.logo img {
+  width: 120px;
+}
 .button {
-  display: flex;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
 }
-
-button {
-  margin: 5px;
-  padding: 10px;
+.sign-in, .sign-up {
+  background-color: transparent;
+  border: 1px solid #a67c52;
+  color: #a67c52;
 }
-
 .book-now {
-  background-color: #ab8a62;
-  border-radius: 20px;
+  background-color: #a67c52;
+  color: #fff;
 }
-
-/* Hero */
 .main-image {
   position: relative;
-  text-align: center;
+  width: 100%;
+  height: 100vh;
 }
-
 .main-image img {
   width: 100%;
-  height: 400px;
+  height: 100%;
   object-fit: cover;
 }
-
-.text {
+.main-image .text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fff;
+  text-align: center;
 }
-.main-main {
-  display: flex;
-  padding: 40px;
-}
-
-.main-div {
-  flex: 1;
-}
-
-form input, textarea {
-  width: 100%;
-  padding: 10px;
+.main-image h1 {
+  font-size: 48px;
   margin-bottom: 10px;
 }
-
-textarea {
-  height: 100px;
+.main-image p {
+  font-size: 18px;
 }
-
+.main-main{
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+}
+.main-div h1 {
+  color: #333;
+}
+.main-div{
+  width: 50%;
+  margin-left: 100px;
+}
+.web-pages img{
+  width: 700px;
+}
+input{
+  width: 471px;
+  padding: 10px;
+}
 .send {
-  background-color: #ab8a62;
-  color: white;
+  margin-top: 20px;
+  background-color: #a67c52;
+  color: #fff;
   border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+.hotel-info, .hotel-location {
+  margin-top: 40px;
+  color: #333;
 }
 
-/* Image */
-.web-pages {
-  flex: 1;
+.hotel-info h2, .hotel-location h2 {
+  margin-bottom: 10px;
+  width: 300px;
+}
+.hotel-info , .hotel-location{
+  width:50%;
+}
+.main-map{
+  margin-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
 
-.web-pages img {
-  max-width: 100%;
-}
+  /* Header */
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
 
-/* Map */
-.map-addres {
-  display: flex;
-  padding: 40px;
-}
-.hotel-info {
-  padding: 20px;
-}
-@media screen and (max-width:600px) {
+  .pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pages a {
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+
+  .button button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  /* Main Image */
+  .main-image {
+    height: 300px;
+  }
+
+  .main-image h1 {
+    font-size: 28px;
+  }
+
+  .main-image p {
+    font-size: 14px;
+  }
+
+  /* Contact Form Section */
+  .main-main {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .main-div {
+    width: 100%;
+    margin-bottom: 30px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .web-pages img {
+    width: 330px;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 20px;
+  }
   
+  input{
+    width: 300px;
+  }
+
+  .send{
+    width: 330px;
+  }
+
+  input, textarea {
+    font-size: 14px;
+  }
+
+
+  /* Map and Info Section */
+  .main-map{
+    display: block;
+  }
+  .map-address iframe{
+    width: 350px;
+    text-align: center;
+    height: 350px;
+  }
+
+  .hotel-info, .hotel-location {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .hotel-info h2, .hotel-location h2 {
+    font-size: 20px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 20px;
+    font-size: 12px;
+  }
 }
+

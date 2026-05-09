@@ -1,0 +1,28 @@
+.main-style{
+    display: flex;
+    margin-top: 10px;
+}
+.email-main{
+    display: flex;
+}
+.email-main h3{
+    margin: 0;
+    padding-left: 15px;
+}
+.phone-main h3{
+    margin: 0;
+    padding-left: 15px;}
+.phone-main{
+    display: flex;
+}
+.addres-main{
+    display: flex;
+    text-align: right;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+.addres-main h3{
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 10px;
+}
