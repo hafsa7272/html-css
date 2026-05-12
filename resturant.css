@@ -1,0 +1,363 @@
+/* header {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pages a {
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+}
+
+.button {
+  display: flex;
+}
+
+.book-now {
+  background-color: #ab8a62;
+  border-radius: 20px;
+  display: block;
+  margin: 5px;
+  color: white;
+}
+
+.sign-up {
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sign-in {
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover {
+  background-color: #ab8a62;
+  color: white;
+} */
+.main-image {
+    background-image: url(http://127.0.0.1:5500/html-css/images/Moonlit%20-%20Hotel%20and%20Resturant%20HTML%20Template_files/5.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.main-image .text {
+  color: #fff;
+  text-align: center;
+}
+.main-image h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.main-image p {
+  font-size: 18px;
+}
+.testemonial{
+    display: flex;
+}
+.testemonial h3{
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ae8e68;
+}
+.experience img{
+height: 648px;
+width: 428px;
+border-radius: 10px;
+margin-left: 40px;
+}
+.main-farm{
+    display: flex;
+}
+.from{
+margin-left: 20px;
+}
+.heading h2{
+font-size: 50px;
+font-weight: 400;
+line-height: 60px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(4 21 109);
+}
+.heading p{
+  font-size: 20px;
+}
+    .container{
+      display:flex;
+      gap:25px;
+      flex-wrap:wrap;
+    }
+
+    .box{
+      width:300px;
+      border:1px solid #d9d9d9;
+      background:#fff;
+      padding:30px 25px;
+    }
+
+    .box h3{
+      color:#666;
+      font-size:18px;
+      font-weight:500;
+      margin-bottom:20px;
+    }
+
+    .info{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      font-size:18px;
+      color:#0d1b6f;
+    } 
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.photos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.one-photo{
+    height: 470px;
+}
+
+.two-photo{
+    height: 470px;
+}
+
+.three-photo{
+    height: 470px;
+}
+.four-photo{
+    grid-column: 1 / 3;
+    height: 350px;
+}
+
+.five-photo{
+    grid-column: 3 / 4;
+    height: 350px;
+}
+.eat{
+  text-align: center;
+}
+.eat h2{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(4 21 109);;
+}
+.eat p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hotel img{
+
+  border-radius: 100%;  
+  border: 2px solid #003c4f;
+}
+.profile{
+    background: #f5f5f5;
+    padding: 80px 100px;
+}
+
+.client h1{
+    text-align: center;
+    font-size: 70px;
+    color: #0b0b45;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+
+.stars{
+    margin-bottom: 30px;
+}
+
+
+
+.hotel{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+
+.hotel img{
+    width: 320px;
+    height: 400px;
+}
+
+.hotel p{
+    font-size: 28px;
+    line-height: 1.8;
+    color: #666;
+    width: 800px;
+}
+
+
+.div h4{
+    font-size: 45px;
+    color: #0b0b45;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.area{
+    font-size: 24px;
+    color: #666;
+}
+footer {
+  background-color: #eeeeee;
+  margin-top: 50px;
+}
+.double {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 60px;
+  flex-wrap: nowrap;
+}
+.triple-main {
+  display: block;
+}
+.triple {
+  display: flex;
+  justify-content: space-around;
+}
+
+.join h1 {
+  font-size: 48px;
+  color: #0b1a3a;
+  font-family: serif;
+  margin: 0;
+  display: inline;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.form input {
+  padding: 12px 15px;
+  font-size: 16px;
+  width: 250px;
+  display: inline;
+}
+
+.form button {
+  background-color: #a67c52;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.moon-lit {
+  width: 330px;
+}
+.quick-link a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 12px;
+  color: #6c6e71;
+}
+.quaik-services {
+  a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 12px;
+    color: #6c6e71;
+  }
+}
+.number,
+.email,
+.location {
+  display: flex;
+}
+.number-1,
+.email-2,
+.locat-3 {
+  padding-left: 10px;
+}
+.locat-3 {
+  margin-right: 5px;
+}  
+   /* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .main-farm{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience{
+    width: 100%;
+  }
+
+  .experience img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .heading{
+    width: 100%;
+    padding: 25px 20px;
+  }
+
+  .heading h1{
+    font-size: 38px;
+    line-height: 1.2;
+  }
+
+  .heading p{
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .info-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .box{
+    width: 100%;
+    padding: 25px 20px;
+  }
+  .photos{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+  }
+ .hotel img{
+ margin-right: -70px;
+ }
+ .hotel p{
+  margin-left: 50px;
+ }
+
+}
