@@ -1,0 +1,120 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.pages {
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+}
+.pages a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  gap: 15px;
+}
+button:hover {
+  background-color: #ab8a62;
+  color: white;
+}
+.sign-in {
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sign-up {
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.book-now {
+  background-color: #ab8a62;
+  border-radius: 20px;
+  display: block;
+  margin: 5px;
+  color: white;
+}
+.image-box {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.background-image {
+  background-image: url(images/home-1-2.webp);
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  top: 70%;
+}
+.head {
+  color: #fff;
+  font-size: 20px;
+}
+
+.para {
+  font-size: 19px;
+  color: #fff;
+}
+.stay {
+  font-size: 70px;
+  color: #fff;
+}
+
+.discover {
+  background: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.main-stay {
+  margin-top: 200px;
+}
+.html,
+body {
+  overflow-x: hidden;
+}
+.main-input {
+  display: flex;
+  border-right: 1px solid black;
+  width: 90%;
+  margin-left: 515px;
+}
+.check {
+  margin: 20px;
+}
+.out {
+  margin: 20px;
+}
+.adult {
+  margin: 20px;
+}
+.child {
+  margin: 20px;
+}
