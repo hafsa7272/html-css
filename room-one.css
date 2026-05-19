@@ -45,13 +45,18 @@ button:hover {
   color: white;
 }
 .main-image {
-  /* position: relative;
   width: 100%;
-  height: 100vh; */
-  background-image: url(images/Moonlit\ -\ Hotel\ and\ Resturant\ HTML\ Template_files/5.webp);
+  height: 100vh;
+  object-fit: cover;
   background-position: center;
   background-size: cover;
-  padding: 200px 0;
+}
+.main-image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 .main-image .text {
   color: #fff;
@@ -66,10 +71,10 @@ button:hover {
 }
 .delux {
   width: 420px;
-  display: flex; 
+  display: flex;
 }
-.executive{
-    width: 420px;
+.executive {
+  width: 420px;
   display: flex;
 }
 .image img {
@@ -138,23 +143,23 @@ body {
 }
 
 .imag {
-  display: flex;             
-  align-items: flex-start;   
-  gap: 20px;                  
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
   margin: 20px auto;
   padding: 20px;
 }
 
 .imag img {
   width: 250px;
-  border-radius: 50%;         
+  border-radius: 50%;
 }
 
 .imag p {
   font-size: 20px;
   color: #555;
   line-height: 1.8;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .div h4 {
@@ -249,59 +254,59 @@ footer {
 }
 .locat-3 {
   margin-right: 5px;
-}  
-.shadow{
-     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 20px;
-} 
-.one-div-shadow{
-       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 20px;
 }
-.hotel{
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+}
+.one-div-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+}
+.hotel {
   padding: 0px 30px;
 }
-imag{
-  border-radius:  blue 50px;
+imag {
+  border-radius: blue 50px;
 }
 @media screen and (max-width: 767px) {
-  .main-image{
+  .main-image {
     padding: 65px 0;
   }
-  .delux{
+  .delux {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  .executive{
-    display: flex ;
+  .executive {
+    display: flex;
     flex-direction: column;
-      align-items: center;
-      width: 100%;
+    align-items: center;
+    width: 100%;
   }
- .header-div{
-  display: none ;
- }
-.double{
-  flex-wrap: wrap;
-}
-.form{
-  flex-direction: column;
-}
-.triple {
+  .header-div {
+    display: none;
+  }
+  .double {
+    flex-wrap: wrap;
+  }
+  .form {
     flex-direction: column;
-}
-.imag{
-  flex-direction: column;
-}
-.hotel img{
-  width: 100%;
-  border-radius: 50%; 
-  border: 2px solid #003c4f;
-}
+  }
+  .triple {
+    flex-direction: column;
+  }
+  .imag {
+    flex-direction: column;
+  }
+  .hotel img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #003c4f;
+  }
 }
