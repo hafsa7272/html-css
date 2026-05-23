@@ -335,7 +335,7 @@ body {
 .room-section h2 {
   font-size: 32px;
   margin-bottom: 40px;
-  color: #c49a6c;
+  color: #0b0b45;
   font-weight: 700;
   text-align: left;
 }
@@ -540,6 +540,90 @@ footer {
 .locat-3 {
   margin-right: 5px;
 }
+@media (max-width: 992px) {
+  .main-special + header, 
+  header, 
+  .navbar, 
+  nav {
+    display: none !important;
+  }
+ .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  .about-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .about-left .images {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-left .images img {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .badge {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    z-index: 10;
+  }
+  .about-right {
+    width: 100%;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  .about-right h3 {
+    font-size: 28px; 
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  .Facilities h1{
+text-align: center;
+font-size: 28px;
+}
+.main-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.room-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+  .card:nth-child(3),
+  .card:nth-child(4) {
+    display: none;
+  }
+  .client h1{
+    text-align: left;
+  }
+  .hotel {
+    display: grid; 
+  }
+  .hotel img{
+    margin-left: -98px;
+  }
+  .hotel p{
+     margin-left: -98px;
+     font-size: 20px;
+  }
+  .sarah{
+display: none;
+  }
+}
+
 
 
 
