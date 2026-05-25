@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0;                                                                           
 }
 header {
   display: flex;
@@ -648,3 +648,76 @@ footer {
     text-align: left;
   }
 }
+@media (max-width: 768px) {
+  .main-special + header,
+  header,
+  .navbar,
+  nav {
+    display: none !important;
+  }
+    .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  .about-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .about-left .images {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-left .images img {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .main-div{
+    display: grid;
+  }
+   .client h1 {
+    text-align: left;
+  }
+  .hotel {
+    display: grid;
+  }
+  .hotel img {
+    margin-left: -98px;
+  }
+  .hotel p {
+    margin-left: -98px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .main-special{
+  width: 100%;
+  height: 100vh;        
+  overflow: hidden;
+}
+
+.main-special img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      
+  display: block;
+}
+   .double {
+    flex-wrap: wrap;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .triple {
+    flex-direction: column;
+    text-align: left;
+  }
+  }
