@@ -1,0 +1,66 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: sans-serif;
+ }
+ .one-header{
+    background-color: #571F9C;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   padding: 0px 60px;
+}
+.info{
+    color: white;
+    margin-left: -10px;
+    margin: 20px;
+}
+.info a{
+    color: white;
+    text-decoration: none;
+}
+.main-div{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+.map a{
+      color: white;
+    text-decoration: none;
+
+}
+.shopping a{
+      color: white;
+    text-decoration: none;
+}
+.contact-icon a{
+      color: white;
+    text-decoration: none;
+}
+.contact-icon .material-icons{
+    font-size: small;
+}
+.logo-set nav img{
+    width: 250px;
+}
+.logo-set{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin-top: 20px;
+}
+.logo-set ul{
+    display: inline-flex;
+    gap: 35px;
+    padding: 0;
+    margin: auto 0;
+}
+.logo-set ul li{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+}
