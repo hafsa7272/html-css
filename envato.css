@@ -129,8 +129,7 @@ body {
     background-color: #581c87;
     color: #ffffff;            
     padding: 60px 40px;
-    max-width: 1000px;         
-    margin: 30px auto;         
+    max-width: 1000px;                 
     border-radius: 4px;
 }
 .para {
@@ -172,10 +171,55 @@ body {
     line-height: 1.5;   
 }
 .four img{
-    width: 50%;
+    width: 100%;
     height: auto;     
     display: block;
 }
 .two-section{
- 
+ display: flex;
+}
+.three-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.best{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  grid-column: 1 / -1
+}
+.watch{
+  width: 65%;
+  border-right: 2px solid rgb(119, 119, 119) ;
+  margin-left: 90px;
+}
+.watch h4{
+  font-size: 30px;
+  color:rgb(0, 0, 0);
+  line-height: 36px;
+  font-weight: 100;
+}
+.watch strong{
+  font-size: 30px;
+  color:rgb(0, 0, 0);
+  line-height: 36px;
+}
+.watch p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(119, 119, 119);
+}
+.best h2{
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  line-height: 50px;
+}
+.best p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgb(119, 119, 119);
 }
