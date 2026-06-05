@@ -193,6 +193,18 @@ body {
   width: 65%;
   border-right: 2px solid rgb(119, 119, 119) ;
   margin-left: 90px;
+  justify-content: center;
+    text-align: center;
+}
+.watch{
+  width: 65%;
+  border-bottom: 2px solid rgb(119, 119, 119) ;
+  margin-left: 90px;
+}
+.watch:hover {
+    background-color: skyblue; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); 
+    cursor: pointer;          
 }
 .watch h4{
   font-size: 30px;
@@ -222,4 +234,85 @@ body {
   font-weight: 600;
   line-height: normal;
   color: rgb(119, 119, 119);
+}
+.four-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  background-color: #FAFAFA;
+}
+.storage .fas{
+  background-color: #581c87;
+  font-size: xx-large;
+  margin: 30px;
+}
+.storage .far{
+  background-color: #581c87;
+  font-size: xx-large;
+  margin: 30px;
+}
+.storage h4{
+  font-size: 20px;
+  font-weight: 500;
+  color:rgb(17, 17, 17);
+  line-height: 30px;
+  font-family: monospace
+}
+.storage p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px ;
+  color: rgb(136, 136, 136);
+  width: 100%;          
+  max-width: 440px;
+}
+.storage button{
+  background-color: #571f9c;    
+  font-size: 14px;
+    padding: 16px 30px 14px;
+}
+.read{
+  color: white;
+}
+.storage i{
+  color: #ffffff;
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  transform: rotate(45deg);
+  padding: 15px;            
+    object-fit: contain;     
+    display: inline-block;
+}
+.five-section{
+  background-color: #571f9c;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  }
+footer{
+  background-color: black;
+}
+.light img{
+  width: 250px;
+  margin-top: 45px;
+}
+.light p, .stay{
+  color: rgb(119, 119, 119);
+  width: 24%;
+  height: 70px;
+}
+.light i{
+  color: #ffffff;
+}
+.light{
+  margin-left: 90px;
+}
+.links h3{
+  color: rgb(255, 255, 255);
+}
+.links ul li{
+   color: rgb(119, 119, 119);
 }
