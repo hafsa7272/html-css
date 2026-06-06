@@ -294,6 +294,7 @@ body {
   }
 footer{
   background-color: black;
+  display: flex;
 }
 .light img{
   width: 250px;
@@ -301,7 +302,7 @@ footer{
 }
 .light p, .stay{
   color: rgb(119, 119, 119);
-  width: 24%;
+  width: 54%;
   height: 70px;
 }
 .light i{
@@ -309,10 +310,42 @@ footer{
 }
 .light{
   margin-left: 90px;
+     width: 600px;
+}
+.links{
+   margin-top: 90px;
 }
 .links h3{
   color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
 }
-.links ul li{
+.ful ul li{
    color: rgb(119, 119, 119);
+   padding-bottom: 7px;
+}
+.news ul li{
+   color: rgb(119, 119, 119);
+   padding-bottom: 7px;
+}
+.contact-item{
+  color: rgb(119, 119, 119);
+  display: flex;       
+  align-items: center; 
+  gap: 10px;           
+}
+.us{
+  margin-top: 110px;
+  margin-left: 85px;
+}
+.us h3{
+  color:rgb(255, 255, 255);
+    font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.main-news{
+  display: flex;
+  gap: 80px;
 }
