@@ -87,6 +87,7 @@ body {
   font-weight: 400;
   line-height: 27px;
   font-size: 18px;
+  padding: 25px;
 }
 .project .material-icons {
   color: #571f9c;
@@ -126,226 +127,284 @@ body {
   height: 506px;
 }
 .six {
-    background-color: #581c87;
-    color: #ffffff;            
-    padding: 60px 40px;
-    max-width: 1000px;                 
-    border-radius: 4px;
+  background-color: #581c87;
+  color: #ffffff;
+  padding: 60px 40px;
+  max-width: 1000px;
+  border-radius: 4px;
 }
 .para {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .para h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 .para p {
-    color: #cbd5e1; 
-    font-size: 16px;
+  color: #cbd5e1;
+  font-size: 16px;
 }
 .six {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .para {
-    width: 100%;
+  width: 100%;
 }
 .says {
-    display: flex;       
-    width: 48%;          
-    margin-bottom: 35px;
+  display: flex;
+  width: 48%;
+  margin-bottom: 35px;
 }
 .says img {
-    width: 32px;       
-    height: auto;
-    margin-right: 20px; 
+  width: 32px;
+  height: auto;
+  margin-right: 20px;
 }
 .says h3 {
-    font-size: 18px;
-    margin-bottom: 8px;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 .says p {
-    color: #cbd5e1;     
-    font-size: 14px;
-    line-height: 1.5;   
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.5;
 }
-.four img{
-    width: 100%;
-    height: auto;     
-    display: block;
+.four img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.two-section{
- display: flex;
+.two-section {
+  display: flex;
 }
 .three-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
-.best{
+.best {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
-  grid-column: 1 / -1
+  grid-column: 1 / -1;
 }
-.watch{
+.watch {
   width: 65%;
-  border-right: 2px solid rgb(119, 119, 119) ;
+  border-right: 2px solid rgb(119, 119, 119);
   margin-left: 90px;
   justify-content: center;
-    text-align: center;
+  text-align: center;
 }
-.watch{
+.watch {
   width: 65%;
-  border-bottom: 2px solid rgb(119, 119, 119) ;
+  border-bottom: 2px solid rgb(119, 119, 119);
   margin-left: 90px;
 }
 .watch:hover {
-    background-color: skyblue; 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); 
-    cursor: pointer;          
+  background-color: skyblue;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
-.watch h4{
+.watch h4 {
   font-size: 30px;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   line-height: 36px;
   font-weight: 100;
 }
-.watch strong{
+.watch strong {
   font-size: 30px;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   line-height: 36px;
 }
-.watch p{
+.watch p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   color: rgb(119, 119, 119);
 }
-.best h2{
+.best h2 {
   font-size: 60px;
   font-weight: 700;
   color: rgb(17, 17, 17);
   line-height: 50px;
 }
-.best p{
+.best p {
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
   color: rgb(119, 119, 119);
 }
-.four-section{
+.four-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   text-align: center;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
-.storage .fas{
+.storage .fas {
   background-color: #581c87;
   font-size: xx-large;
   margin: 30px;
 }
-.storage .far{
+.storage .far {
   background-color: #581c87;
   font-size: xx-large;
   margin: 30px;
 }
-.storage h4{
+.storage h4 {
   font-size: 20px;
   font-weight: 500;
-  color:rgb(17, 17, 17);
+  color: rgb(17, 17, 17);
   line-height: 30px;
-  font-family: monospace
+  font-family: monospace;
 }
-.storage p{
+.storage p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 28px ;
+  line-height: 28px;
   color: rgb(136, 136, 136);
-  width: 100%;          
+  width: 100%;
   max-width: 440px;
 }
-.storage button{
-  background-color: #571f9c;    
+.storage button {
+  background-color: #571f9c;
   font-size: 14px;
-    padding: 16px 30px 14px;
+  padding: 16px 30px 14px;
 }
-.read{
+.read {
   color: white;
 }
-.storage i{
+.storage i {
   color: #ffffff;
   border-radius: 15px;
   width: 60px;
   height: 60px;
   transform: rotate(45deg);
-  padding: 15px;            
-    object-fit: contain;     
-    display: inline-block;
+  padding: 15px;
+  object-fit: contain;
+  display: inline-block;
 }
-.five-section{
+.five-section {
   background-color: #571f9c;
   text-align: center;
   color: #ffffff;
   padding: 20px;
   margin-top: 20px;
-  }
-footer{
+}
+footer {
   background-color: black;
   display: flex;
 }
-.light img{
+.light img {
   width: 250px;
   margin-top: 45px;
 }
-.light p, .stay{
+.light p,
+.stay {
   color: rgb(119, 119, 119);
   width: 54%;
   height: 70px;
 }
-.light i{
+.light i {
   color: #ffffff;
 }
-.light{
+.light {
   margin-left: 90px;
-     width: 600px;
+  width: 600px;
 }
-.links{
-   margin-top: 90px;
+.links {
+  margin-top: 90px;
 }
-.links h3{
+.links h3 {
   color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
 }
-.ful ul li{
-   color: rgb(119, 119, 119);
-   padding-bottom: 7px;
-}
-.news ul li{
-   color: rgb(119, 119, 119);
-   padding-bottom: 7px;
-}
-.contact-item{
+.ful ul li {
   color: rgb(119, 119, 119);
-  display: flex;       
-  align-items: center; 
-  gap: 10px;           
+  padding-bottom: 7px;
 }
-.us{
+.news ul li {
+  color: rgb(119, 119, 119);
+  padding-bottom: 7px;
+}
+.contact-item {
+  color: rgb(119, 119, 119);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.us {
   margin-top: 110px;
   margin-left: 85px;
 }
-.us h3{
-  color:rgb(255, 255, 255);
-    font-weight: 400;
+.us h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
   font-size: 24px;
   line-height: 36px;
 }
-.main-news{
+.main-news {
   display: flex;
   gap: 80px;
+}
+@media screen and (max-width: 668px) {
+  .one-header, 
+  .logo-set {
+    display: none;
+  }
+  .one-section {
+    display: grid;
+  }
+  .one-div p {
+    width: 85%;
+  }
+  .one-div img {
+    width: 100%;
+  }
+  .three-div {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+    width: 100% !important;
+  }
+  .project {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  .two-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .four {
+    width: 100%;
+  }
+
+  .six {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0;
+  }
+  .three-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .four-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .watch:active {
+    color: skyblue;
+  }
+  footer{
+    display: block;
+  }
 }
