@@ -311,7 +311,6 @@ footer {
   color: #ffffff;
 }
 .light {
-  margin-left: 90px;
   width: 600px;
 }
 .links {
@@ -339,7 +338,6 @@ footer {
 }
 .us {
   margin-top: 110px;
-  margin-left: 85px;
 }
 .us h3 {
   color: rgb(255, 255, 255);
@@ -404,7 +402,38 @@ footer {
   .watch:active {
     color: skyblue;
   }
+  .six {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 30px;
+    padding: 20px;
+  }
+  .para {
+    grid-column: 1 / -1;
+  }
+  .says {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  .says img {
+    margin-bottom: 15px;     
+}
+.best h2{
+   font-size: 46px;
+}
+.watch{
+  margin: auto;
+}
+.storage p{
+  padding: 35px;
+}
+.links ul{
+  list-style: none;
+}
   footer{
     display: block;
   }
 }
+
+
