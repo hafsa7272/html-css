@@ -87,7 +87,6 @@ body {
   font-weight: 400;
   line-height: 27px;
   font-size: 18px;
-  padding: 25px;
 }
 .project .material-icons {
   color: #571f9c;
@@ -304,17 +303,14 @@ footer {
 .light p,
 .stay {
   color: rgb(119, 119, 119);
-  width: 54%;
+  width: 88%;
   height: 70px;
 }
 .light i {
   color: #ffffff;
 }
-.light {
-  width: 600px;
-}
 .links {
-  margin-top: 90px;
+  margin-top: 105px;
 }
 .links h3 {
   color: rgb(255, 255, 255);
@@ -435,5 +431,53 @@ footer {
     display: block;
   }
 }
-
-
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .one-div img{
+    width: 195px;
+  }
+ .three-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ .project{
+  width: 250px;
+ }
+ .two-section{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .watch{
+  width: 100%;
+  margin: 0;
+ }
+ .three-section{
+  margin: auto;
+ }
+  .ful ul{
+ list-style: none;
+ }
+   .news ul{
+ list-style: none;
+ }
+ .main-news{
+  display: block;
+ }
+ .light p{
+  width: 80%;
+ }
+ .light{
+  width: 35%;
+ }
+ .link{
+  margin-top: 105px;
+ }
+ .us{
+  display: block;
+ }
+ footer{
+  width: 100%;
+ }
+ header{
+  display: none;
+ }
+ }
