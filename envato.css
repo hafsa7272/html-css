@@ -477,7 +477,25 @@ footer {
  footer{
   width: 100%;
  }
- header{
+ .logo-set{
   display: none;
  }
+ .us {
+    padding: 20px;
+  }
+
+  .us h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .contact-item {
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .contact-item i {
+    font-size: 16px;
+  }
  }
