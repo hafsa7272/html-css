@@ -291,3 +291,118 @@ body {
   background-color: #5e1b9a;
   margin: 10px auto;
 }
+.colspan{
+   width: 40px;
+  height: 3px;
+  background-color: #5e1b9a;
+  margin: 10px;
+}
+.five-section h3{
+font-size: 24px;
+font-weight: 400;
+font-family: "Montserrat";
+line-height: 36px;
+color: #111;
+}
+.nisi strong{
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "open sans";
+  line-height: 28px;
+  color: #777;
+}
+.nisi p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "open sans";
+  line-height: 28px;
+  color: #777;
+}
+ .nisi button:hover{
+   background-color: #571f9c;
+  color: white;
+}
+.nisi button{
+    margin-top: 10px;
+  font-size: 14px;
+  padding: 16px 30px 14px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  background: white;
+  border: solid #571f9c;
+  color: #571f9c;
+}
+.strategery strong{
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "open sans";
+  line-height: 28px;
+  color: #777;
+}
+.strategery p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "open sans";
+  line-height: 28px;
+  color: #777;
+}
+.strategery button{
+    margin-top: 10px;
+  font-size: 14px;
+  padding: 16px 30px 14px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  background: white;
+  border: solid #571f9c;
+  color: #571f9c;
+}
+ .strategery button:hover{
+   background-color: #571f9c;
+  color: white;
+}
+.current img{
+  width: 60%;
+}
+.six-section h3{
+font-family: "Montserrat";
+font-size: 40px;
+font-weight: 400;
+line-height: 60px;
+color: #111;
+padding: 40px 115px;
+}
+.six-section strong{
+font-family: "Montserrat";
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+color: #111;
+}
+.aria{
+font-family: "Montserrat";
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(119, 119, 119);
+}
+.current h4{
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #111;
+}
+.current p{
+font-family: "open sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(119, 119, 119);
+}
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.six-section{
+  background-color: #F5F5F5;
+}
