@@ -84,7 +84,7 @@ body {
   font-family: "open sans";
 }
 .one-div h2 {
-  width: 91%;
+  width: 117%;
   font-size: 34px;
   line-height: 51px;
   font-weight: 400;
@@ -131,7 +131,7 @@ body {
   line-height: 27px;
 }
 .main-div {
-  padding: 0 120px;
+  padding: 0 60px;
 }
 .para p {
   padding-bottom: 15px;
@@ -181,7 +181,7 @@ body {
   color: white;
 }
 .book {
-  width: 21%;
+  /* width: 21%; */
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -458,8 +458,121 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 205px;
 }
 .image-brand img{
   width: 16%;
+}
+footer {
+  background-color: black;
+  display: flex;
+}
+.light img {
+  width: 250px;
+  margin-top: 45px;
+}
+.light p,
+.stay {
+  color: rgb(119, 119, 119);
+  width: 88%;
+  height: 70px;
+}
+.light i {
+  color: #ffffff;
+}
+.links {
+  margin-top: 105px;
+}
+.links h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.ful ul li {
+  color: rgb(119, 119, 119);
+  padding-bottom: 7px;
+}
+.news ul li {
+  color: rgb(119, 119, 119);
+  padding-bottom: 7px;
+}
+.contact-item {
+  color: rgb(119, 119, 119);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.us {
+  margin-top: 110px;
+}
+.us h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.main-news {
+  display: flex;
+  gap: 80px;
+}
+@media screen and (max-width: 768px) {
+  .one-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .info {
+    margin: 10px 0;
+  }
+  .main-div {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .logo-set {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo-set ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .services {
+    height: auto;
+    padding: 20px;
+  } 
+  .one-image{
+    width: 106%;
+  }
+  .three-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 20px;
+  } 
+  .ital img {
+    width: 100%;
+  }
+  .six-section h3 {
+    padding: 20px;
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .menu {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 20px;
+  }
+.book button{
+  width: 65%;
+}
+.seven-section{
+  padding: 45px;
+  margin: 10px;
+}
+.image-brand img{
+  width: 40%;
+}
+
 }
