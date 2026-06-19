@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: sans-serif;
 }
+
 .one-header {
   background-color: #571f9c;
   color: white;
@@ -14,60 +16,72 @@ body {
   flex-direction: row;
   padding: 0px 60px;
 }
+
 .info {
   color: white;
   margin-left: -10px;
   margin: 20px;
 }
+
 .info a {
   color: white;
   text-decoration: none;
   font-family: "open sans";
 }
+
 .main-div {
   display: flex;
   margin: 20px;
   gap: 20px;
 }
+
 .map a {
   color: white;
   text-decoration: none;
   font-family: "open sans";
 }
+
 .shopping a {
   color: white;
   text-decoration: none;
   font-family: "open sans";
 }
+
 .contact-icon a {
   color: white;
   text-decoration: none;
   font-family: "open sans";
 }
+
 .contact-icon .material-icons {
   font-size: small;
 }
+
 .logo-set nav img {
   width: 250px;
 }
+
 .logo-set {
   display: flex;
   justify-content: space-between;
   padding: 0px 60px;
   margin-top: 20px;
 }
+
 .logo-set ul {
   display: inline-flex;
   gap: 35px;
   padding: 0;
   margin: auto 0;
 }
+
 .logo-set ul li {
   list-style-type: none;
   font-size: 18px;
   font-weight: 600;
   font-family: "open sans";
 }
+
 .services {
   height: 150px;
   background-color: #f2f2f2;
@@ -76,6 +90,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .h2_1 {
   padding: 5px;
   font-weight: 400;
@@ -83,6 +98,7 @@ body {
   color: #333333;
   font-family: "open sans";
 }
+
 .one-div h2 {
   width: 117%;
   font-size: 34px;
@@ -91,12 +107,14 @@ body {
   color: rgb(17, 17, 17);
   font-family: "montserrat";
 }
+
 .group {
   width: 40px;
   height: 3px;
   background-color: #5e1b9a;
   margin: 10px;
 }
+
 .home a {
   font-size: 20px;
   color: rgb(119, 119, 119);
@@ -104,12 +122,14 @@ body {
   font-weight: 400;
   text-decoration: none;
 }
+
 .home p {
   color: rgb(119, 119, 119);
   font-size: 15px;
   font-family: "Open Sans";
   font-weight: 400;
 }
+
 .one-div p {
   width: 91%;
   font-size: 16px;
@@ -118,37 +138,46 @@ body {
   color: rgb(119, 119, 119);
   font-family: "open sans";
 }
+
 .one-div h5 {
   font-size: 18px;
   font-weight: 400;
   color: #111;
   line-height: 27px;
 }
+
 .paragraph p {
   font-size: 18px;
   font-weight: 400;
   color: rgb(119, 119, 119);
   line-height: 27px;
 }
+
 .main-div {
   padding: 0 60px;
 }
+
 .para p {
   padding-bottom: 15px;
 }
+
 .one-div {
   padding-top: 40px;
 }
+
 .paragraph p a {
   text-decoration: none;
 }
+
 .two-section {
   background-color: #ededed;
 }
+
 .career {
   text-align: center;
   padding: 75px 0;
 }
+
 .career h3 {
   margin-bottom: 20px;
   font-size: 42px;
@@ -158,6 +187,7 @@ body {
   text-transform: none;
   color: #111111;
 }
+
 .career p {
   margin-bottom: 20px;
   font-weight: 400;
@@ -166,40 +196,49 @@ body {
   color: rgb(119, 119, 119);
   font-family: "open sans";
 }
+
 .career button {
   margin-top: 10px;
   font-size: 14px;
   padding: 16px 30px 14px;
   background-color: #571f9c;
 }
+
 .portal {
   color: white;
   font-family: "open sans";
 }
+
 .portal a {
   text-decoration: none;
   color: white;
 }
+
 .book {
   /* width: 21%; */
   text-align: center;
   justify-content: center;
   align-items: center;
 }
+
 .book h4 {
   font-size: 20px;
   font-family: "montserrat";
   font-weight: 600;
 }
+
 .book h4 {
   margin-bottom: 20px;
 }
+
 .book h4 {
   margin-bottom: 20px;
 }
+
 .book i {
   margin-bottom: 20px;
 }
+
 .book p {
   margin-bottom: 20px;
   font-weight: 400;
@@ -208,25 +247,29 @@ body {
   color: rgb(119, 119, 119);
   font-family: "open sans";
 }
+
 .book button {
   margin-top: 10px;
   font-size: 14px;
   padding: 16px 30px 14px;
-  width: 120%;
+  width: 95%;
   color: #571f9c;
   background: white;
   border: solid #571f9c;
 }
+
 .book button:hover {
   background: #571f9c;
   color: #eeeeee;
 }
+
 .three-section {
   display: flex;
   gap: 130px;
   justify-content: center;
   padding-top: 100px;
 }
+
 .drive strong {
   font-weight: bold;
   font-size: 42px;
@@ -234,11 +277,13 @@ body {
   color: #571f9c;
   font-family: "Montserrat";
 }
+
 .drive {
   text-align: center;
   margin-top: 75px;
   margin-bottom: 85px;
 }
+
 .drive h2 {
   font-weight: 400;
   font-size: 42px;
@@ -246,12 +291,15 @@ body {
   color: #571f9c;
   font-family: "Montserrat";
 }
+
 .ital img {
   width: 24%;
 }
+
 .ital {
   position: relative;
 }
+
 .meet {
   border-radius: 50%;
   width: 488px;
@@ -263,6 +311,7 @@ body {
   top: 175px;
   left: 495px;
 }
+
 .meet button {
   margin-top: 10px;
   font-size: 14px;
@@ -273,6 +322,7 @@ body {
   border: solid purple;
   color: purple;
 }
+
 .meet h2 {
   font-size: 50px;
   font-weight: 400;
@@ -281,22 +331,26 @@ body {
   font-family: "Montserrat";
   width: 20%;
 }
+
 .meet button:hover {
   background-color: #571f9c;
   color: white;
 }
+
 .special {
   width: 40px;
   height: 3px;
   background-color: #5e1b9a;
   margin: 10px auto;
 }
+
 .colspan {
   width: 40px;
   height: 3px;
   background-color: #5e1b9a;
   margin: 10px;
 }
+
 .five-section {
   display: flex;
   align-items: center;
@@ -304,6 +358,7 @@ body {
   padding-bottom: 55px;
   padding-top: 50px;
 }
+
 .five-section h3 {
   font-size: 24px;
   font-weight: 400;
@@ -311,6 +366,7 @@ body {
   line-height: 36px;
   color: #111;
 }
+
 .nisi strong {
   font-size: 15px;
   font-weight: 700;
@@ -318,6 +374,7 @@ body {
   line-height: 28px;
   color: #777;
 }
+
 .nisi p {
   font-size: 14px;
   font-weight: 400;
@@ -325,10 +382,12 @@ body {
   line-height: 28px;
   color: #777;
 }
+
 .nisi button:hover {
   background-color: #571f9c;
   color: white;
 }
+
 .nisi button {
   margin-top: 10px;
   font-size: 14px;
@@ -339,6 +398,7 @@ body {
   border: solid #571f9c;
   color: #571f9c;
 }
+
 .strategery strong {
   font-size: 15px;
   font-weight: 700;
@@ -346,6 +406,7 @@ body {
   line-height: 28px;
   color: #777;
 }
+
 .strategery h3 {
   font-size: 24px;
   font-weight: 400;
@@ -354,6 +415,7 @@ body {
   color: #111;
   text-align: justify !important;
 }
+
 .strategery p {
   font-size: 14px;
   font-weight: 400;
@@ -361,6 +423,7 @@ body {
   line-height: 28px;
   color: #777;
 }
+
 .strategery button {
   margin-top: 10px;
   font-size: 14px;
@@ -371,13 +434,16 @@ body {
   border: solid #571f9c;
   color: #571f9c;
 }
+
 .strategery button:hover {
   background-color: #571f9c;
   color: white;
 }
+
 .current img {
   width: 60%;
 }
+
 .six-section h3 {
   font-family: "Montserrat";
   font-size: 40px;
@@ -386,6 +452,7 @@ body {
   color: #111;
   padding: 40px 115px;
 }
+
 .six-section strong {
   font-family: "Montserrat";
   font-size: 40px;
@@ -393,6 +460,7 @@ body {
   line-height: 60px;
   color: #111;
 }
+
 .aria {
   font-family: "Montserrat";
   font-size: 14px;
@@ -400,6 +468,7 @@ body {
   line-height: 28px;
   color: rgb(119, 119, 119);
 }
+
 .current h4 {
   font-family: "Montserrat";
   font-size: 20px;
@@ -407,6 +476,7 @@ body {
   line-height: 30px;
   color: #111;
 }
+
 .current p {
   font-family: "open sans";
   font-size: 14px;
@@ -414,14 +484,17 @@ body {
   line-height: 28px;
   color: rgb(119, 119, 119);
 }
+
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .six-section {
   background-color: #f5f5f5;
-  padding-bottom: 100px ;
+  padding-bottom: 100px;
 }
+
 .menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -437,6 +510,7 @@ body {
 .current {
   width: 100%;
 }
+
 .client h3 {
   font-size: 36px;
   font-weight: 400;
@@ -444,135 +518,188 @@ body {
   line-height: 54px;
   color: #111;
 }
-.client strong{
+
+.client strong {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
   color: #111;
 }
-.client{
+
+.client {
   text-align: center;
 }
-.image-brand{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.image-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.image-brand img{
+
+.image-brand img {
   width: 16%;
 }
+
 footer {
   background-color: black;
   display: flex;
 }
+
 .light img {
   width: 250px;
   margin-top: 45px;
 }
+
 .light p,
 .stay {
   color: rgb(119, 119, 119);
   width: 88%;
   height: 70px;
 }
+
 .light i {
   color: #ffffff;
 }
+
 .links {
   margin-top: 105px;
 }
+
 .links h3 {
   color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
 }
+
 .ful ul li {
   color: rgb(119, 119, 119);
   padding-bottom: 7px;
 }
+
 .news ul li {
   color: rgb(119, 119, 119);
   padding-bottom: 7px;
 }
+
 .contact-item {
   color: rgb(119, 119, 119);
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .us {
   margin-top: 110px;
 }
+
 .us h3 {
   color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
 }
+
 .main-news {
   display: flex;
   gap: 80px;
 }
+
 @media screen and (max-width: 768px) {
   .one-header {
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
+
   .info {
     margin: 10px 0;
   }
+
   .main-div {
     flex-direction: column;
     padding: 0 20px;
   }
+
   .logo-set {
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
+
   .logo-set ul {
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
   }
+
   .services {
     height: auto;
     padding: 20px;
-  } 
-  .one-image{
+  }
+
+  .one-image img {
     width: 106%;
   }
+
+  .one-div h2 {
+    width: 85%;
+  }
+
   .three-section {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 20px;
-  } 
+    width: 100%;
+    text-align: center;
+  }
+
   .ital img {
     width: 100%;
   }
+
   .six-section h3 {
     padding: 20px;
     font-size: 28px;
     line-height: 42px;
   }
+
   .menu {
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 0 20px;
   }
-.book button{
-  width: 65%;
-}
-.seven-section{
-  padding: 45px;
-  margin: 10px;
-}
-.image-brand img{
-  width: 40%;
-}
 
+  .book button {
+    width: 65%;
+  }
+
+  .seven-section {
+    padding: 45px;
+    margin: 10px;
+  }
+
+  .image-brand img {
+    width: 40%;
+  }
+
+  .book {
+    width: 290px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .book h4 {
+    font-size: 22px;
+  }
+  .meet {
+   display: none;
+  }
+  .links ul{
+  list-style: none;
+}
+  footer{
+    display: block;
+  }
 }
