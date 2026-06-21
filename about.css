@@ -690,16 +690,208 @@ footer {
     text-align: center;
     margin: 0 auto;
   }
+
   .book h4 {
     font-size: 22px;
   }
+
   .meet {
-   display: none;
+    display: none;
   }
-  .links ul{
-  list-style: none;
-}
-  footer{
+
+  .links ul {
+    list-style: none;
+  }
+
+  footer {
     display: block;
   }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .three-section {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .one-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .one-image img {
+    width: 94%;
+  }
+
+  .ital {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+  }
+
+  .meet {
+    position: absolute;
+    top: 60px;
+    display: inline;
+    left: 210px;
+    padding: 60px;
+    width: 300px;
+    height: 300px
+  }
+
+  .meet h2 {
+    font-size: 30px;
+    line-height: 45px;
+    width: 100%;
+  }
+
+  .menu {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0px 20px
+  }
+  .image-brand img {
+    width: 40%;
+    padding: 30px;
+  }
+  footer {
+    display: flex;
+    padding: 20px;
+  }
+  .main-news {
+    display: block;
+  }
+  .light p {
+    width: 227px;
+    margin-bottom: 55px;
+    line-height: 25px;
+  }
+  .stay {
+    width: 227px;
+    display: block;
+    margin-top: 65px;
+  }
+  .links {
+    width: 230px;
+  }
+  .news ul li {
+    padding-bottom: 20px;
+    
+  }
+  .ful ul li {
+    padding-bottom: 20px;
+  }
+  .us {
+    width: 230px;
+  } 
+  .contact-item {
+   padding: 10px;
+   width: 200px;
+   line-height: 25px;
+  }
+
+}
+/* Portrait */
+@media screen and (max-width: 1047px) {
+    .main-div {
+       display: block;
+    }
+    .one-div h2 {
+      width: 100%;
+      font-size: 45px;
+      line-height: 60px;
+    }
+    .one-div p {
+      width: 710px;
+      font-size: 100%;
+      line-height: 30px;
+
+    }
+    .one-image img {
+      width: 700px;
+      text-align: center;
+    }
+    .one-image {
+      text-align: center;
+      width: 100%;
+    }
+    .career p {
+      width: 712px;
+      text-align: center;
+      height: 112px;
+      margin: 0 auto;
+    }
+    .career{
+      text-align: center;
+      width: 100%;
+    }
+    .ital{
+      position: relative;
+    }
+    .meet {
+      position: absolute;
+      top: 65px;
+      display: inline;
+      left: 300px;
+      padding: 80px;
+      width: 330px;
+      height: 330px
+    }
+    .meet h2 {
+      font-size: 30px;
+      line-height: 45px;
+      width: 100%;
+    }
+    .current{
+      width: 100%;
+      padding: 0 20px;
+    }
+    .menu {
+     padding: 0 20px;
+    }
+    .current h4 {
+       font-size: 26px;
+    }
+    .image-brand img {
+      width: 25%;
+      padding: 30px;
+    }
+    .light p {
+      width:227px;
+      line-height: 25px;
+      margin-bottom: 55px;
+    }
+    .footer {
+      padding: 30px;
+    }
+    .main-news {
+      display: block;
+      padding: 0 50px;
+    }
+    
+}
+
+.top_button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.top_button button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  padding: 10px 15px;
+  transition: all 0.4s ease-in-out;
+  transform: translateY(-8px);
+}
+.top_button button a {
+  color: white;
+  text-decoration: none;
 }
