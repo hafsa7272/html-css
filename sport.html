@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports</title>
     <link rel="stylesheet" href="sport.css" />
@@ -16,13 +19,13 @@
 
 <body>
     <header>
-        <div class="logo">
+        <div class="logo"> 
             <img src="images/logo-new.webp">
         </div>
         <div class="nav">
             <a href="#">Home</a>
             <a href="#">Politcs</a>
-            <a href="#">News</a>
+            <a href="#" class="dropdown">News ▼</a>
             <a href="#">Buisness</a>
             <a href="#">Sports</a>
             <a href="#">Health</a>
@@ -30,10 +33,29 @@
         </div>
         <div class="search">
             <i class="fa fa-search"></i>
+            <div class="active_input">
+            <input type="text" placeholder="Type and hit enter..."><button>SEARCH</button>
+            </div>
             <button>Subscribe</button>
             <i class="fa fa-bars"></i>
         </div>
     </header>
+      <section class="one-section">
+        <div class="category">
+            <strong>Category:</strong>
+            <h3>SPORTS</h3>
+        </div>
+        <div class="title">
+           <div class="rushing">
+            <img src="images/p6-1170x778.webp">
+            </div>
+            <div class="rushing-text">
+            <a href="#">Sports</a>
+            <h2>Winter Olympics 2022 day five: Shiffrin out of slalom; snowboard cross final</h2>
+            <p>The rush to give employees access to all the tools they’d need to work from home was a bit, well, sudden for many employers. But after everyone settled …</p>
+           </div>
+           </div>
+    </section>
 </body>
 
 </html>

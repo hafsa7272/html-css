@@ -39,6 +39,13 @@ header img {
 .search i {
     padding: 10px;
 }
+.search fa fa-search {
+    display: inline;
+}
+.active_input {
+    display: none;
+}
+
 .search button {
     padding: 10px;
     background-color: red;
@@ -52,4 +59,66 @@ header img {
     background-color: white;
     color: red;
     border: 2px solid red;
+}
+.search input {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid white;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+}
+.rushing img{
+   width: 442px;
+    height: 298px;
+}
+.category{
+    padding-left: 230px;
+    margin-top: 70px;
+    margin-bottom: 45px;
+}
+.category h3{
+    display: inline;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Alegreya", serif;
+    color: #e7131a;
+    line-height: 29px;
+}
+.category strong{
+    display: inline;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Alegreya", serif;
+    color: #313131;
+    line-height: 29px;
+}
+.title{
+     margin: 30px;
+    display:flex ;
+    border-bottom: 2px solid;
+}
+.rushing-text h2 , p{
+    width: 50%;
+}
+.rushing-text a{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "lato",sans-serif;
+    color: #e7131a;
+    line-height: 16px;
+    text-decoration: none;
+}
+.rushing-text h2{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: "Alegreya", serif;
+    color: #313131;
+    line-height: 36px;
+}
+.rushing-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "lato",sans-serif;
+    color: #313131;
+    line-height: 29px;
 }
