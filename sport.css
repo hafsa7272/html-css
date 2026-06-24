@@ -42,9 +42,6 @@ header img {
 .search fa fa-search {
     display: inline;
 }
-.active_input {
-    display: none;
-}
 
 .search button {
     padding: 10px;
