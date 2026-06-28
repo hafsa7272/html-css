@@ -1,0 +1,124 @@
+footer{
+    background-color: black;
+}
+.content img{
+    width:15%;
+    margin-top: 55px;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.links li{
+    margin: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "lato";
+    line-height: 18px;
+    font-weight: 400;
+}
+.links li:hover{
+    color: #8F1A18;
+}
+.additional-links{
+    color: white;
+    text-decoration: none;
+}
+.additional-links li{
+    margin: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "lato";
+    line-height: 18px;
+    font-weight: 400;
+}
+.additional-links li:hover{
+    color: #8F1A18;
+}
+.subtract-links{
+    color: white;
+    text-decoration: none;
+}
+.subtract-links li{
+    margin: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "lato";
+    line-height: 18px;
+    font-weight: 400;
+}
+.subtract-links li:hover{
+    color: #8F1A18;
+}
+.breaking-news{
+    color: white;
+    text-decoration: none;
+}
+.breaking-news li{
+    margin: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "lato";
+    line-height: 18px;
+    font-weight: 400;
+}
+.breaking-news li:hover{
+    color: #8F1A18;
+}
+.legal-links{
+    color: white;
+    text-decoration: none;
+}
+.legal-links li{
+    margin: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "lato";
+    line-height: 18px;
+    font-weight: 400;
+}
+.legal-links li:hover{
+    color: #8F1A18;
+}
+.social{
+    display: flex;
+}
+.copyright{
+    color: white;
+    text-decoration: none;
+}
+.copyright li{
+    margin: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "lato";
+    line-height: 18px;
+    font-weight: 400;
+}
+.copyright li:hover{
+    color: #8F1A18;
+}
+ .subscribe-button {               
+    background-color: #000000;
+    color: #ffffff;           
+    border: 2px solid #ffffff;
+    padding: 12px 35px;      
+    font-size: 18px;     
+    font-family: "Roboto";     
+    font-weight: 600;  
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 60px;
+}
+
+.subscribe-button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.subscribe-button:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+}

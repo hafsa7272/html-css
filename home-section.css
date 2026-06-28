@@ -13,10 +13,8 @@
 .news-card{
     display:flex;
     align-items:flex-start;
-    gap:15px;
     width: 100%;
     background:#fff;
-    padding:10px;
 }
 .news-image img{
     width:120px;
@@ -44,4 +42,7 @@
     display:grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
     gap:20px;
+}
+.news-content{
+    padding: 15px;
 }
