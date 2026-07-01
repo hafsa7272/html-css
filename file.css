@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.text{
+    border-bottom: 1px solid #DEDEDE;
+    border-left: 1px solid #DEDEDE;
+    margin-left:12px;
+    padding-left: 17px;
+}
+.main-sectio{
+    margin-top: 70px;
+}
+.text a{
+    font-size:16px;
+    line-height: 22px;
+    display: block;
+    width: 230px;
+    color:#222;
+    font-weight:500;
+    margin-bottom:15px;
+    font-family: "Alegreya";
+    text-decoration:none;
+}
+.text a:hover{
+    color:#e7131a;
+}
+.card-one p{
+   color:#8a8a8a;
+    font-family: "Lato"; 
+    font-size:14px;
+    margin-bottom: 10px;
+}
+.card-two img{
+    width:430px;
+}
+.card-two h2{
+    width: 405px;
+    text-align: center;
+    font-family: "Alegreya";
+}
+.card-two h2:hover{
+    color:#e7131a;
+}
+.by span{
+    font-size: 11px;
+    font-family: "Lato";
+    font-weight: 400;
+    line-height: 16px;
+    color: #313131;
+}
+
+.card-two a{
+    font-size: 11px;
+    color: #313131;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.card-two a:hover{
+    color: #e60000;
+}
+
+.card-two p{
+    color:#313131;
+    font-family: "Lato"; 
+    font-size:11px;
+    font-weight: 400;
+    line-height: 16px;
+    display: inline-block;
+}
+.card-three{
+    border-left: 1px solid #DEDEDE;
+    padding-left: 14px;
+    margin-left:20px;
+}
+.five a{
+    font-size:16px;
+    line-height: 22px;
+    display: block;
+    width: 230px;
+    color:#222;
+    font-weight:600;
+    font-family: "Alegreya";
+    text-decoration:none;
+}
+.five{
+    margin-bottom: 20px;
+    width: 260px;
+    border-bottom: 1px solid #DEDEDE;
+    align-items: center;
+}
+.five p{
+   color:#8a8a8a;
+    font-family: "Lato"; 
+    font-size:14px;
+}
+.five a:hover{
+    color:#e60000;
+}
+.left-container{
+display: flex;
+}
+.author{
+    text-align: center;
+}
+.card-one{
+    width:270px;
+}
+.container{
+    display: flex;
+}
+.box-one img{
+    width: 309px;
+}
+.box-two h3{
+    font-family: "Alegreya";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #e7131a;
+    margin-bottom: 10px;
+}
+.box-two p{
+    font-family: "Alegreya";
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.brexit{
+    width:270px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.hurt{
+    width:290px;
+    border-bottom: 1px solid #DEDEDE;   
+}
+.climbing{
+    width:316px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.one{
+    width:300px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.olympics{
+    width: 315px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.bruno{
+    width:260px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.right-container{
+   border-left: 1px solid #DEDEDE;
+   padding-left: 14px;
+}
+.text:hover{
+    color:#e7131a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.videos-section {
+  padding: 40px 8%;
+}
+
+.videos-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.videos-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video-card {
+  width: calc(20% - 16px);
+  min-width: 220px;
+}
+
+.img-box {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.img-box img {
+  width: 100%;
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: black;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.video-card p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.video-card span {
+  font-size: 12px;
+  color: gray;
+}
