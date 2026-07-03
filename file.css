@@ -6,20 +6,20 @@
 
 .text {
     border-bottom: 1px solid #DEDEDE;
-    border-left: 1px solid #DEDEDE;
-    margin-left: 12px;
+    margin-left: 13px;
     padding-left: 17px;
 }
 
-.main-section {
-    margin-top: 70px;
+.winter {
+    margin-left: 13px;
+    padding-left: 17px;
 }
 
-.text a {
+.winter a {
     font-size: 16px;
     line-height: 22px;
     display: block;
-    width: 230px;
+    width: 225px;
     color: #222;
     font-weight: 500;
     margin-bottom: 15px;
@@ -27,15 +27,53 @@
     text-decoration: none;
 }
 
+.winter a:hover {
+    color: #e7131a;
+}
+
+.main-section {
+    margin-top: 28px;
+}
+
+.text a {
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+    width: 221px;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: "Alegreya";
+    text-decoration: none;
+}
+
+.heading h3 {
+    text-align: center;
+    font-family: "Alegreya", serif;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(49, 49, 49);
+    font-size: 24px;
+    line-height: 32px;
+} 
+.heading {
+    margin-right: 26%;
+    margin-bottom: -15px;
+}
+
 .text a:hover {
     color: #e7131a;
 }
 
 .card-one p {
-    color: #8a8a8a;
-    font-family: "Lato";
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 4px;
+    margin-top: 12px;
 }
 
 .card-one {
@@ -96,11 +134,16 @@
     font-size: 16px;
     line-height: 22px;
     display: block;
-    width: 230px;
+    width: 240px;
     color: #222;
     font-weight: 600;
     font-family: "Alegreya";
     text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.rock a:hover {
+    color: #e7131a;
 }
 
 .five {
@@ -110,13 +153,40 @@
     align-items: center;
     padding-bottom: 15px;
 }
-.left-container {
-   border-bottom: 1px solid #DEDEDE;
+
+.rock a {
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+    width: 240px;
+    color: #222;
+    font-weight: 600;
+    font-family: "Alegreya";
+    text-decoration: none;
+    margin-bottom: 10px;
 }
+
+.left-container {
+    border-bottom: 1px solid #DEDEDE;
+    padding-top: 40px;
+}
+
 .five p {
-    color: #8a8a8a;
-    font-family: "Lato";
-    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.rock p {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .five a:hover {
@@ -124,11 +194,12 @@
 }
 
 .left-container {
-    display: flex; 
+    display: flex;
 }
 
 .author {
     text-align: center;
+    padding-top: 9px;
 }
 
 .card-one {
@@ -155,10 +226,11 @@
 
 .box-two p {
     font-family: "Alegreya";
-    margin-bottom: 20px;
     font-size: 18px;
     font-weight: 600;
     line-height: 25px;
+    margin: 0;
+    padding: 10px;
 }
 
 .brexit {
@@ -180,6 +252,7 @@
 .olympics {
     width: 322px;
 }
+
 .bruno {
     width: 274px;
 }
@@ -197,6 +270,7 @@
     width: 180px;
     height: 120px;
 }
+
 .video a {
     text-decoration: none;
     color: #222;
@@ -208,30 +282,70 @@
     margin-top: 10px;
     font-weight: 500;
 }
+
 .video a:hover {
     color: #e7131a;
-}  
+}
+
 .video p {
     color: #727272;
     font-family: "Lato";
     font-size: 12px;
     margin-top: 10px;
-} 
+}
+
 .video-list {
     display: flex;
     margin-top: 20px;
 }
-.new-video h2{
-  font-family: 'Alegreya', serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  color: rgb(49, 49, 49);
-  margin:1%;
+
+.new-video h2 {
+    font-family: 'Alegreya', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(49, 49, 49);
+    margin: 1%;
 }
-.video{
+
+.video {
     border-right: 1px solid #DEDEDE;
     padding-left: 17px;
     padding-right: 20px;
 }
+
+.privacy {
+    text-align: right;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    z-index: 10000;
+    display: block;
+    width: 80px;
+}
+
+.privacy a {
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(49, 49, 49);
+    font-size: 13px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+hr {
+    width: 440px;
+    display: inline-block;
+    color: #DEDEDE;
+}
+.heading h3 {
+    display: inline-block;
+}
+    
