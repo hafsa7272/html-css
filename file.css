@@ -348,4 +348,6 @@ hr {
 .heading h3 {
     display: inline-block;
 }
+ @media screen and (min-width: 768px) and (max-width: 1024px) { 
     
+ }
