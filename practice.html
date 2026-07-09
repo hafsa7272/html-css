@@ -1,25 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-.dropdown{
-    position: relative;
-}
-.dropdown-content{
-    position: absolute;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .reflect{
+            position: relative;
+            width: 50%;
+        }
+
+        .design {
+            position: absolute;
+            display: none;
+            width: auto;
+        }
+
+        .reflect:hover .design {
+            display: flex;
+        }
+
+        .brand p {
+            font-family: "inter";
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 27px;
+            color: rgb(2, 2, 2);
+            width: 373px;
+        }
+
+        .ui a {
+            font-family: "inter";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;
+            color: rgb(34, 34, 34);
+            text-decoration: none;
+            width: 325px;
+        }
+        .ui{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
 </head>
+
 <body>
-
-<div class="dropdown">
-  <button class="dropbtn">dropdown Menu</button>
-  <div class="dropdown-content">
-  <a href="#">Link 1</a>
-  <a href="#">Link 2</a>
-  <a href="#">Link 3</a>
-  </div>
-</div>
-
+    <div class="reflect">
+        <div class="div-btn">
+            <button>designer</button>
+        </div>
+        <div class="design">
+            <div class="brand">
+                <p>Designing applications that reflect the values of your brand.</p>
+            </div>
+            <div class="ui">
+                <a href="#">UI/UX Designers</a>
+                <a href="#">Graphic Designers</a>
+                <a href="#">Web Designers</a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

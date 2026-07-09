@@ -8,13 +8,12 @@ header{
     justify-content: space-between;
     margin-top: 18px;
 }
-
 .logo img {
     width: 215px;
     padding-left: 15px;
 }
 
-.blog a {
+.blog a , .contact a , .reflect a{
     text-decoration: none;
     font-family: "inter", sans-serif;
     font-weight: 500;
@@ -23,11 +22,15 @@ header{
     color: rgb(34, 34, 34);
     margin-right: 15px;
 }
-
 .blog a:hover {
     color: rgb(0, 75, 135);
 }
-
+.contact a:hover {
+    color: rgb(0, 75, 135);
+}
+.reflect a:hover {
+    color: rgb(0, 75, 135);
+}
 .area a {
     color: #FFFFFF !important;
     text-decoration: none !important;
@@ -48,15 +51,133 @@ header{
 .area:hover {
     color: #0026ff;
 }
-.blog{
+.blog , .contact ,{
     margin-right: 100px;
 }
 header{
    max-width: 1500px;
 }
-.drop-down {
-    display: none;  
-}
+        /* body {
+            color: black;
+        } */
+
+        .developers {
+            position: relative;
+            width: 50%;
+        }
+        .dropdown-content {
+            position: absolute;
+            display: none;
+            width: 0px;
+            margin-left: -194px;
+    margin-top: 42px;
+        }
+        .developers:hover .dropdown-content {
+            display: flex;
+        }
+        .button-div{
+            width: 465px;
+        }
+        .button-div a {
+            text-decoration: none;
+            display: block;
+            font-family: "inter", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: rgb(34, 34, 34) !important;
+            margin-bottom: 11px;
+        }
+        .button-div a:hover{
+            text-decoration: underline;
+        }
+        .button-div h3 {
+            width: 368px;
+            font-family: "inter", sans-serif;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 27px;
+            color: rgb(15, 76, 129);
+        }
+
+        .button-div h2 {
+            width: 347px;
+            font-family: "inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 27px;
+            color: rgb(2, 2, 2);
+        }
+        .jquery-div{
+            display: grid;
+        }
+        .jquery-div a {
+            text-decoration: none;
+            font-family: "inter", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: rgb(34, 34, 34) !important;
+            margin-bottom: 11px;
+        }
+        .jquery-div a:hover{
+            text-decoration: underline;
+        }
+        .jquery-div h3 {
+            width: 275px;
+            font-family: "inter", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 27px;
+            color: rgb(15, 76, 129);
+        }
+                .reflect{
+            position: relative;
+            width: 50%;
+        }
+
+        .design {
+            position: absolute;
+            display: none;
+            width: auto;
+            margin-top: 85px;
+            margin-left: -398px;
+                }
+
+        .reflect:hover .design {
+            display: flex;
+        }
+
+        .brand p {
+            font-family: "inter";
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 27px;
+            color: rgb(2, 2, 2);
+            width: 373px;
+        }
+
+        .ui a {
+            font-family: "inter";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;
+            color: rgb(34, 34, 34) !important;
+            text-decoration: none;
+                 width: 229px;
+    margin-left: 50px;
+        }
+        .ui a:hover{
+            text-decoration: underline;
+        }
+        .ui{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
 @media (max-width: 768px) {
     header{
         display: block;
