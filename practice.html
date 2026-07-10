@@ -6,62 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .reflect{
+        .case-btn {
             position: relative;
-            width: 50%;
         }
 
-        .design {
+        .dropdown-panel {
             position: absolute;
             display: none;
-            width: auto;
+            padding: 30px 40px;
+            align-items: flex-start;
+            background: #ffffff;
+            width: 800px;
         }
 
-        .reflect:hover .design {
+        .case-btn:hover .dropdown-panel {
             display: flex;
         }
 
-        .brand p {
-            font-family: "inter";
-            font-weight: 500;
-            font-size: 21px;
-            line-height: 27px;
-            color: rgb(2, 2, 2);
-            width: 373px;
+        .panel-heading p {
+            font-size: 20px;
+            font-weight: 600;
+            color: #111111;
+            line-height: 1.4;
+            width: 289px;
         }
 
-        .ui a {
-            font-family: "inter";
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 18px;
-            color: rgb(34, 34, 34);
-            text-decoration: none;
-            width: 325px;
+        .panel-links {
+            display: flex;
+            gap: 60px;
+            padding-left: 136px;
         }
-        .ui{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+
+        .panel-links a:hover {
+            text-decoration: underline;
+        }
+
+        .panel-links a {
+            font-size: 15px;
+            color: #333333;
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
-    <div class="reflect">
-        <div class="div-btn">
-            <button>designer</button>
-        </div>
-        <div class="design">
-            <div class="brand">
-                <p>Designing applications that reflect the values of your brand.</p>
+    <div class="case-btn">
+        <button>case study</button>
+        <div class="dropdown-panel">
+            <div class="panel-heading">
+                <p>Testaments of research and development structure for success stories that we helped create!</p>
             </div>
-            <div class="ui">
-                <a href="#">UI/UX Designers</a>
-                <a href="#">Graphic Designers</a>
-                <a href="#">Web Designers</a>
+            <div class="panel-links">
+                <a href="#">Case Study</a>
+                <a href="#">Portfolio</a>
             </div>
         </div>
     </div>
 </body>
-
 </html>
